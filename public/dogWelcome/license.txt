@@ -1,0 +1,11 @@
+Model Information:
+* title:	Dog (Welcome)
+* source:	https://sketchfab.com/3d-models/dog-welcome-c0a3257957de43d2bd396f93e292bb2f
+* author:	David Wigforss (https://sketchfab.com/dwigfor)
+
+Model License:
+* license type:	CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)
+* requirements:	Author must be credited. No commercial use.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Dog (Welcome)" (https://sketchfab.com/3d-models/dog-welcome-c0a3257957de43d2bd396f93e292bb2f) by David Wigforss (https://sketchfab.com/dwigfor) licensed under CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)

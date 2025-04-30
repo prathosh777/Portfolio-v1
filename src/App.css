@@ -1,0 +1,17 @@
+Canvas{height: 100vh;}
+body{
+    /* background-color:rgb(28, 28, 28) ; */
+    /* box-shadow: inset 0px 0px 10px 10px rgba(255, 255, 255, 0.5); */
+  }
+  .container{
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    background-color: #333;
+    color: white;
+    border-radius: 20px;
+  }
+  /* .wrapper{
+    
+    filter: drop-shadow(1px 1px 20px white);
+} */
