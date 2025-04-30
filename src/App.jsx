@@ -52,7 +52,7 @@
 //             draggable: true,
 //             progress: undefined,
 //             theme: "dark",
-          
+
 //           }
 //         );
 //       }
@@ -216,7 +216,7 @@ const App = () => {
         draggable: true,
         progress: undefined,
         theme: "dark",
-        toastId: 'mobile-warning'
+        toastId: "mobile-warning",
       });
     }
 
@@ -229,7 +229,7 @@ const App = () => {
       onMouseMove={handleMouseMove}
     >
       <ToastContainer />
-      
+
       {loading ? (
         <div className="flex h-screen items-center justify-center">
           <Loader />
@@ -239,11 +239,23 @@ const App = () => {
           <CursorPointer position={position} />
           <nav className="h-16 sticky top-0 z-[70000] flex justify-between lg:px-20 px-5 lg:text-3xl text-sm sm:text-lg font-bold items-center bg-slate-900">
             <h4>Prathosh Kumar</h4>
-            <motion.a
+            {/* <motion.a
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               download={true}
               href="../public/Prathosh-Kumar-Resume.pdf"
+              className="lg:px-4 lg:py-2 px-2 py-1 flex rounded-full background text-white font-semibold lg:text-xl hover:from-blue-500 hover:to-purple-500"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Download size={20} className="mr-1" />
+              Download CV
+            </motion.a> */}
+            <motion.a
+              whileHover={{ scale: 1.05 }}
+              whileTap={{ scale: 0.95 }}
+              href="/Prathosh-Kumar-Resume.pdf" // Adjusted path for public folder access
+              download // Simplified download attribute
               className="lg:px-4 lg:py-2 px-2 py-1 flex rounded-full background text-white font-semibold lg:text-xl hover:from-blue-500 hover:to-purple-500"
               target="_blank"
               rel="noopener noreferrer"

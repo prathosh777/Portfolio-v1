@@ -110,7 +110,7 @@ const Footer = () => {
             <h4 className="text-slate-300 font-semibold mb-4">Quick Actions</h4>
             <div className="flex flex-col space-y-3 ml-24 md:ml-0">
               <motion.a
-                href="../../public/Prathosh-Kumar-Resume.pdf"
+                href="/Prathosh-Kumar-Resume.pdf"
                 download
                 whileHover={{ x: 5 }}
                 className="flex items-center text-slate-400 hover:text-purple-400 transition-colors"
