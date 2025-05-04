@@ -321,16 +321,16 @@ const About = () => {
         </motion.p>
         <motion.button
           onClick={handleScroll}
-          className="px-12 py-3 lg:text-xl text-xs  rounded-full background hover:from-purple-400 hover:to-blue-400 transition-all ease-in-out duration-300 relative"
+          className="px-12 py-3 lg:text-xl text-xs flex mx-auto rounded-full background hover:from-purple-400 hover:to-blue-400 transition-all ease-in-out duration-300 rlative"
           whileHover={{
             scale: 1.05,
             boxShadow: "0 0 25px rgba(96,165,250,0.3)",
           }}
           whileTap={{ scale: 0.95 }}
         >
-          <span className="relative right-5   z-10">Let's Connect</span>
+          <span className="relative    z-10">Let's Connect</span>
           <motion.span
-            className="absolute  "
+            className="absolte md:pt-1 "
             animate={{
               x: [0, 5, 0],
               transition: {

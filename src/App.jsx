@@ -260,7 +260,7 @@ const App = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Download size={20} className="mr-1" />
+              <Download size={20} className="mr-1 md:pt-2" />
               Download CV
             </motion.a>
           </nav>
